@@ -40,10 +40,7 @@ jobs:
       # Run the tests
       - name: Run the tests
         run: npm test
-        
-      # Buld
-      - name: Build
-        run: npm run build
+  
 
 
       # Runs a single command using the runners shell
